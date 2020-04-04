@@ -1,5 +1,4 @@
 tasks:
   - init: npm install
-  - command: nodemon app.js
 image:
   file: .gitpod.Dockerfile
