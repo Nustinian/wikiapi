@@ -2,6 +2,10 @@ FROM gitpod/workspace-mongodb
                     
 USER gitpod
 
+RUN npm i -g nodemon 
+
+CMD ["mongod"]
+
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
