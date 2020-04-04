@@ -1,5 +1,8 @@
 tasks:
-  - init: mongod
   - init: npm install
+  - command: mongod
+  - command: nodemon app.js
 image:
   file: .gitpod.Dockerfile
+ports:
+  - port: 3000
