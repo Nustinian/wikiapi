@@ -1,5 +1,5 @@
 tasks:
+  - init: mongod
   - init: npm install
-  - command: mongod
 image:
   file: .gitpod.Dockerfile
